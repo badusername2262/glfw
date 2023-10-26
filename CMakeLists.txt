@@ -11,7 +11,7 @@ if (POLICY CMP0077)
     cmake_policy(SET CMP0077 NEW)
 endif()
 
-add_compile_options(-std=c11 -lgdi32)
+add_compile_options(-std=c20 -lgdi32)
 add_compile_definitions(_GLFW_WIN32 _CRT_SECURE_NO_WARNINGS)
 
 set(files
