@@ -26,7 +26,8 @@
 //========================================================================
 // It is fine to use C99 in this file because it will not be built with VS
 //========================================================================
-
+#define CLOCK_REALTIME   0
+# define CLOCK_MONOTONIC 1
 #include "internal.h"
 
 #if defined(GLFW_BUILD_POSIX_TIMER)
